@@ -1,0 +1,32 @@
+<launch>
+
+  <arg name="hub_uri" default="http://robot-devil.csres.utexas.edu:6380" />
+  <arg name="gateway_name" default="gateway"/>
+  <!-- Polling period for multimaster advertising/flipping -->
+  <arg name="gateway_watch_loop_period" default="5"/>
+  <arg name="hub_whitelist" default=""/> <!-- semi-colon separated hub names/regex patterns -->
+
+  <arg name="robot_name" default="robot1"/>
+  <arg name="robot_type" default="test_robot"/>
+  <arg name="robot_icon" default="rocon_app_manager/cybernetic_pirate.png"/>
+  <arg name="rapp_lists" default="rocon_apps/rocon.rapps"/> <!-- semi colon separated list of rapp list resource names --> 
+
+  <include file="$(find rocon_app_manager)/launch/includes/_app_manager.xml">
+    <arg name="robot_name" value="$(arg robot_name)" />
+    <arg name="robot_type" value="$(arg robot_type)" />
+    <arg name="robot_icon" value="$(arg robot_icon)" />
+    <arg name="rapp_lists" value="$(arg rapp_lists)" />
+  </include>
+
+  <node pkg="rocon_gateway" type="gateway.py" name="gateway">
+    <rosparam command="load" file="$(find rocon_gateway)/param/default.yaml" />
+    <rosparam command="load" file="$(find rocon_gateway)/param/default_blacklist.yaml" />
+    <rosparam command="load" file="$(find rocon_app_manager)/param/app_manager_advertisements.yaml" />
+    <param name="hub_uri" value="$(arg hub_uri)" />
+    <param name="name" value="$(arg gateway_name)"/> <!-- <rosparam param="name" subst_value="true">$(arg robot_name)</rosparam> -->
+    <rosparam param="firewall">true</rosparam> <!-- Nothing comes in! -->
+    <param name="watch_loop_period" value="$(arg gateway_watch_loop_period)"/>
+    <param name="hub_whitelist" value="$(arg hub_whitelist)"/>
+  </node>
+  
+</launch>
