@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+  <name>bwi_gateway_tests</name>
+  <version>0.0.0</version>
+  <description>The bwi_gateway_tests package</description>
+
+  <maintainer email="piyushk@gmail.com">Piyush Khandelwal</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>rocon_gateway</run_depend>
+
+</package>
