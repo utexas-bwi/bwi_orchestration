@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+edu.utexas.cs.orc.orceclipse.SITE_CLASSPATH=${workspaceLoc}/WebSocketsSite/bin/|${workspaceLoc}/WebSocketsSite/lib/java_websocket.jar|
