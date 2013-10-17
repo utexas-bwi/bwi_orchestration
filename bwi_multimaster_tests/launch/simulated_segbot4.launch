@@ -1,6 +1,6 @@
 <launch>
 
-  <arg name="hub_uri" default="http://robot-devil.csres.utexas.edu:6380" />
+  <arg name="hub_uri" default="http://localhost:6380" />
   <!-- Polling period for multimaster advertising/flipping -->
   <arg name="gateway_watch_loop_period" default="5"/>
   <arg name="hub_whitelist" default=""/> <!-- semi-colon separated hub names/regex patterns -->
