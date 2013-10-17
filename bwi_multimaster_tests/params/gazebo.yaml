@@ -1,17 +1,17 @@
 default_flips: 
    - gateway: robot1       # flip to a specific rule to a gateway
      rule:  
-       name: /robot1/cmd_vel
+       name: /robot1/application/cmd_vel
        node: None
        type: subscriber
    - gateway: robot1       # flip to a specific rule to a gateway
      rule:  
-       name: /robot1/odom
+       name: /robot1/application/odom
        node: None
        type: publisher
    - gateway: robot1       # flip to a specific rule to a gateway
      rule:  
-       name: /robot1/scan_filtered
+       name: /robot1/application/scan_filtered
        node: None
        type: publisher
    - gateway: robot1       # flip to a specific rule to a gateway
@@ -36,17 +36,17 @@ default_flips:
    #     type: publisher
    - gateway: robot2       # flip to a specific rule to a gateway
      rule:  
-       name: /robot2/cmd_vel
+       name: /robot2/application/cmd_vel
        node: None
        type: subscriber
    - gateway: robot2       # flip to a specific rule to a gateway
      rule:  
-       name: /robot2/odom
+       name: /robot2/application/odom
        node: None
        type: publisher
    - gateway: robot2       # flip to a specific rule to a gateway
      rule:  
-       name: /robot2/scan_filtered
+       name: /robot2/application/scan_filtered
        node: None
        type: publisher
    - gateway: robot2       # flip to a specific rule to a gateway
@@ -71,17 +71,17 @@ default_flips:
    #     type: publisher
    - gateway: robot3       # flip to a specific rule to a gateway
      rule:  
-       name: /robot3/cmd_vel
+       name: /robot3/application/cmd_vel
        node: None
        type: subscriber
    - gateway: robot3       # flip to a specific rule to a gateway
      rule:  
-       name: /robot3/odom
+       name: /robot3/application/odom
        node: None
        type: publisher
    - gateway: robot3       # flip to a specific rule to a gateway
      rule:  
-       name: /robot3/scan_filtered
+       name: /robot3/application/scan_filtered
        node: None
        type: publisher
    - gateway: robot3       # flip to a specific rule to a gateway
@@ -106,17 +106,17 @@ default_flips:
    #     type: publisher
    - gateway: robot4       # flip to a specific rule to a gateway
      rule:  
-       name: /robot4/cmd_vel
+       name: /robot4/application/cmd_vel
        node: None
        type: subscriber
    - gateway: robot4       # flip to a specific rule to a gateway
      rule:  
-       name: /robot4/odom
+       name: /robot4/application/odom
        node: None
        type: publisher
    - gateway: robot4       # flip to a specific rule to a gateway
      rule:  
-       name: /robot4/scan_filtered
+       name: /robot4/application/scan_filtered
        node: None
        type: publisher
    - gateway: robot4       # flip to a specific rule to a gateway
