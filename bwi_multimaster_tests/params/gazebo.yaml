@@ -1,0 +1,141 @@
+default_flips: 
+   - gateway: robot1       # flip to a specific rule to a gateway
+     rule:  
+       name: /robot1/cmd_vel
+       node: None
+       type: subscriber
+   - gateway: robot1       # flip to a specific rule to a gateway
+     rule:  
+       name: /robot1/odom
+       node: None
+       type: publisher
+   - gateway: robot1       # flip to a specific rule to a gateway
+     rule:  
+       name: /robot1/scan_filtered
+       node: None
+       type: publisher
+   - gateway: robot1       # flip to a specific rule to a gateway
+     rule:  
+       name: /map
+       node: None
+       type: publisher
+   - gateway: robot1       # flip to a specific rule to a gateway
+     rule:  
+       name: /static_map
+       node: None
+       type: service
+   - gateway: robot1       # flip to a specific rule to a gateway
+     rule:  
+       name: /tf
+       node: None
+       type: publisher
+   # - gateway: robot1       # flip to a specific rule to a gateway
+   #   rule:  
+   #     name: /tf_changes
+   #     node: None
+   #     type: publisher
+   - gateway: robot2       # flip to a specific rule to a gateway
+     rule:  
+       name: /robot2/cmd_vel
+       node: None
+       type: subscriber
+   - gateway: robot2       # flip to a specific rule to a gateway
+     rule:  
+       name: /robot2/odom
+       node: None
+       type: publisher
+   - gateway: robot2       # flip to a specific rule to a gateway
+     rule:  
+       name: /robot2/scan_filtered
+       node: None
+       type: publisher
+   - gateway: robot2       # flip to a specific rule to a gateway
+     rule:  
+       name: /map
+       node: None
+       type: publisher
+   - gateway: robot2       # flip to a specific rule to a gateway
+     rule:  
+       name: /static_map
+       node: None
+       type: service
+   - gateway: robot2       # flip to a specific rule to a gateway
+     rule:  
+       name: /tf
+       node: None
+       type: publisher
+   # - gateway: robot2       # flip to a specific rule to a gateway
+   #   rule:  
+   #     name: /tf_changes
+   #     node: None
+   #     type: publisher
+   - gateway: robot3       # flip to a specific rule to a gateway
+     rule:  
+       name: /robot3/cmd_vel
+       node: None
+       type: subscriber
+   - gateway: robot3       # flip to a specific rule to a gateway
+     rule:  
+       name: /robot3/odom
+       node: None
+       type: publisher
+   - gateway: robot3       # flip to a specific rule to a gateway
+     rule:  
+       name: /robot3/scan_filtered
+       node: None
+       type: publisher
+   - gateway: robot3       # flip to a specific rule to a gateway
+     rule:  
+       name: /map
+       node: None
+       type: publisher
+   - gateway: robot3       # flip to a specific rule to a gateway
+     rule:  
+       name: /static_map
+       node: None
+       type: service
+   - gateway: robot3       # flip to a specific rule to a gateway
+     rule:  
+       name: /tf
+       node: None
+       type: publisher
+   # - gateway: robot3       # flip to a specific rule to a gateway
+   #   rule:  
+   #     name: /tf_changes
+   #     node: None
+   #     type: publisher
+   - gateway: robot4       # flip to a specific rule to a gateway
+     rule:  
+       name: /robot4/cmd_vel
+       node: None
+       type: subscriber
+   - gateway: robot4       # flip to a specific rule to a gateway
+     rule:  
+       name: /robot4/odom
+       node: None
+       type: publisher
+   - gateway: robot4       # flip to a specific rule to a gateway
+     rule:  
+       name: /robot4/scan_filtered
+       node: None
+       type: publisher
+   - gateway: robot4       # flip to a specific rule to a gateway
+     rule:  
+       name: /map
+       node: None
+       type: publisher
+   - gateway: robot4       # flip to a specific rule to a gateway
+     rule:  
+       name: /static_map
+       node: None
+       type: service
+   - gateway: robot4       # flip to a specific rule to a gateway
+     rule:  
+       name: /tf
+       node: None
+       type: publisher
+   # - gateway: robot4       # flip to a specific rule to a gateway
+   #   rule:  
+   #     name: /tf_changes
+   #     node: None
+   #     type: publisher

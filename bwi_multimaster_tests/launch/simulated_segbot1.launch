@@ -1,6 +1,6 @@
 <launch>
 
-  <arg name="gateway_name" default="gateway"/>
+  <arg name="hub_uri" default="http://robot-devil.csres.utexas.edu:6380" />
   <!-- Polling period for multimaster advertising/flipping -->
   <arg name="gateway_watch_loop_period" default="5"/>
   <arg name="hub_whitelist" default=""/> <!-- semi-colon separated hub names/regex patterns -->
@@ -8,10 +8,8 @@
   <arg name="robot_name" default="robot1"/>
   <arg name="robot_type" default="segbot"/>
   <arg name="robot_icon" default="rocon_app_manager/cybernetic_pirate.png"/>
-  <arg name="rapp_lists" default="rocon_apps/rocon.rapps"/> <!-- semi colon separated list of rapp list resource names --> 
+  <arg name="rapp_lists" default="bwi_multimaster_tests/simulated_segbot.rapps;rocon_apps/rocon.rapps"/> <!-- semi colon separated list of rapp list resource names --> 
 
-  <node ns="zeroconf" pkg="zeroconf_avahi" type="zeroconf" name="zeroconf"/>
-  
   <include file="$(find rocon_app_manager)/launch/includes/_app_manager.xml">
     <arg name="robot_name" value="$(arg robot_name)" />
     <arg name="robot_type" value="$(arg robot_type)" />
@@ -23,10 +21,12 @@
     <rosparam command="load" file="$(find rocon_gateway)/param/default.yaml" />
     <rosparam command="load" file="$(find rocon_gateway)/param/default_blacklist.yaml" />
     <rosparam command="load" file="$(find rocon_app_manager)/param/app_manager_advertisements.yaml" />
-    <param name="name" value="$(arg gateway_name)"/> <!-- <rosparam param="name" subst_value="true">$(arg robot_name)</rosparam> -->
-    <rosparam param="firewall">true</rosparam> <!-- Nothing comes in! -->
+    <param name="hub_uri" value="$(arg hub_uri)" />
+    <param name="name" value="$(arg robot_name)"/>
+    <rosparam param="firewall">false</rosparam> <!-- Need to get flipped topics from gazebo gateway -->
     <param name="watch_loop_period" value="$(arg gateway_watch_loop_period)"/>
     <param name="hub_whitelist" value="$(arg hub_whitelist)"/>
+    <param name="disable_uuids" value="true" />
   </node>
   
 </launch>
