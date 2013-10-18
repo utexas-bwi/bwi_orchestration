@@ -11,14 +11,16 @@
     <rosparam command="load" file="$(find rocon_gateway)/param/default_blacklist.yaml" />
     <param name="hub_uri" value="$(arg hub_uri)" />
     <param name="name" value="$(arg gateway_name)"/> <!-- <rosparam param="name" subst_value="true">$(arg robot_name)</rosparam> -->
-    <rosparam param="firewall">true</rosparam> <!-- Nothing comes in! -->
+    <rosparam param="firewall">false</rosparam> 
     <param name="watch_loop_period" value="$(arg gateway_watch_loop_period)"/>
     <param name="hub_whitelist" value="$(arg hub_whitelist)"/>
     <param name="disable_uuids" value="true"/>
   </node>
 
   <node pkg="concert_conductor" type="conductor.py" name="conductor">
-    <param name="auto_invite" value="true" />
+    <remap from="conductor/remote_gateway_info" to="gateway/remote_gateway_info" />
+    <remap from="conductor/gateway_info" to="gateway/gateway_info" />
+    <remap from="conductor/pull" to="gateway/pull" />
   </node>
   
 </launch>

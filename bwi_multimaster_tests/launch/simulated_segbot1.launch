@@ -5,6 +5,8 @@
   <arg name="gateway_watch_loop_period" default="5"/>
   <arg name="hub_whitelist" default=""/> <!-- semi-colon separated hub names/regex patterns -->
 
+  <param name="/use_sim_time" value="true" />
+
   <arg name="robot_name" default="robot1"/>
   <arg name="robot_type" default="segbot"/>
   <arg name="robot_icon" default="rocon_app_manager/cybernetic_pirate.png"/>
