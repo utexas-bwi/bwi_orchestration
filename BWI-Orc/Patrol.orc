@@ -15,8 +15,10 @@ val rb = RosbridgeConnection(jsonWs)
 {- A robot.  It can "moveTo" a coordinate and report its "pose". -}
 def class Robot(rosbridgeConnection, robotId) =
   val allocatedRobot = 
-    rosbridgeConnection.call(robotId+"/invite", {. remote_target_name = "orchestrator", application_namespace = "robot1" .})  >>
+    rosbridgeConnection.call(robotId+"/invite", {. remote_target_name = "orchestrator", application_namespace = robotId.substring(1) .})  >>
+    Rwait(2000)  >>
     rosbridgeConnection.call(robotId+"/start_app", {. name = "segbot_navigation/map_nav" .} )  >>
+    Rwait(5000)  >>
     signal
   def getId() = robotId
   val moveBase = allocatedRobot >> RosActionClient(rosbridgeConnection, robotId+"/move_base", "move_base_msgs/MoveBase")
