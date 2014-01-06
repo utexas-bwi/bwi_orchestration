@@ -1,17 +1,21 @@
 <?xml version="1.0"?>
 <package>
-  <name>orc_interface</name>
+  <name>bwi_orchestration_maps</name>
   <version>0.0.0</version>
-  <description>The orc_interface package</description>
+  <description>The bwi_orchestration_maps package</description>
 
   <maintainer email="piyushk@gmail.com">Piyush Khandelwal</maintainer>
 
   <license>BSD</license>
 
-  <!-- <url type="website">http://ros.org/wiki/orc_interface</url> -->
-
   <author email="piyushk@gmail.com">Piyush Khandelwal</author>
 
   <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>gazebo_ros</run_depend>
+
+  <export>
+    <gazebo_ros gazebo_media_path="${prefix}" />
+  </export>
 
 </package>
