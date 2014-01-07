@@ -75,6 +75,10 @@ new_map.info.width = 2 * (map.map.info.width + extra_pixels_x)
 new_map.info.height = 2 * (map.map.info.height + extra_pixels_y)
 new_map.data = [None] * new_map.info.height * new_map.info.width
 
+new_map.info.origin.position.x -= (new_map.info.width / 2) * new_map.info.resolution + extra_x
+new_map.info.origin.position.y -= (new_map.info.height / 2) * new_map.info.resolution + extra_y
+new_map.info.origin = map.map.info.origin
+
 for j in range(new_map.info.height / 2):
     for i in range(new_map.info.width / 2):
         if i < extra_pixels_x or j < extra_pixels_y:

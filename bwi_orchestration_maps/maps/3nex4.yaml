@@ -2,5 +2,5 @@ free_thresh: 0.196
 image: 3nex4.pgm
 negate: 0
 occupied_thresh: 0.65
-origin: [-13.15, -2.0, 0.0]
+origin: [-73.45, -28.6, 0.0]
 resolution: 0.05
