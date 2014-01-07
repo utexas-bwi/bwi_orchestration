@@ -1,5 +1,5 @@
 apps:
- - bwi_orchestration_rapps/nav
- - bwi_orchestration_rapps/logical_nav
- - bwi_orchestration_rapps/nav_gui
- - bwi_orchestration_rapps/logical_nav_gui
+ - name: bwi_orchestration_rapps/nav
+ - name: bwi_orchestration_rapps/logical_nav
+ - name: bwi_orchestration_rapps/nav_gui
+ - name: bwi_orchestration_rapps/logical_nav_gui

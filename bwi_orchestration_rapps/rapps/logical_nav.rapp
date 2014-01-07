@@ -1,6 +1,6 @@
 display:      Segbot Navigation
 description:  Drive a segbot around a pre-made map.
-platform:     linux.precise.ros.segbot
-launch:       segbot_navigation/logical_nav.launch
-interface:    segbot_navigation/logical_nav.interface
-icon:         segbot_navigation/placeholder_icon.png
+platform:     linux.*.ros.segbot
+launch:       bwi_orchestration_rapps/logical_nav.launch
+interface:    bwi_orchestration_rapps/logical_nav.interface
+icon:         bwi_orchestration_rapps/placeholder_icon.png
