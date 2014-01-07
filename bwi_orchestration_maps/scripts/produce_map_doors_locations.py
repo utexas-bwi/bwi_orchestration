@@ -17,10 +17,10 @@ y = float(sys.argv[5])
 def normalize_angle(angle):
     return math.atan2(math.sin(angle), math.cos(angle))
 
-def flip_angle_along_y_axis(angle):
+def flip_angle_along_x_axis(angle):
     return math.atan2(-math.sin(angle), math.cos(angle))
 
-def flip_angle_along_x_axis(angle):
+def flip_angle_along_y_axis(angle):
     return math.atan2(math.sin(angle), -math.cos(angle))
 
 def flip_angle_along_x_and_y_axes(angle):
@@ -100,7 +100,7 @@ for j in range(new_map.info.height / 2):
                 new_map.data[map_idx_3] = new_map.data[map_idx_4] = \
                 old_map_value 
 
-saveMapToFile(new_map, "map.yaml", "map.pgm", False, 0.196, 0.65)
+saveMapToFile(new_map, "3nex4.yaml", "3nex4.pgm", False, 0.196, 0.65)
 
 # Handle doors file
 doors_file = open(doors_file_str, "r")
