@@ -1,0 +1,700 @@
+- approach:
+  - from: cor
+    point: [-4.3, 8.15, -1.5708]
+  - from: 1o3_502
+    point: [-4.3, 6.35, 1.24905]
+  name: 1d3_502
+  width: 0.9
+- approach:
+  - from: cor
+    point: [-23.9, 8.15, 1.5708]
+  - from: 2o3_502
+    point: [-23.9, 6.35, -1.24905]
+  name: 2d3_502
+  width: 0.9
+- approach:
+  - from: cor
+    point: [-23.9, -12.95, 1.5707926535897934]
+  - from: 3o3_502
+    point: [-23.9, -11.149999999999999, -1.8925426535897933]
+  name: 3d3_502
+  width: 0.9
+- approach:
+  - from: cor
+    point: [-4.3, -12.95, -1.5707926535897934]
+  - from: 4o3_502
+    point: [-4.3, -11.149999999999999, 1.8925426535897933]
+  name: 4d3_502
+  width: 0.9
+- approach:
+  - from: cor
+    point: [7.2, 8.15, -1.5708]
+  - from: 1o3_508
+    point: [7.2, 6.35, 1.30455]
+  name: 1d3_508
+  width: 0.9
+- approach:
+  - from: cor
+    point: [-35.4, 8.15, 1.5708]
+  - from: 2o3_508
+    point: [-35.4, 6.35, -1.30455]
+  name: 2d3_508
+  width: 0.9
+- approach:
+  - from: cor
+    point: [-35.4, -12.95, 1.5707926535897934]
+  - from: 3o3_508
+    point: [-35.4, -11.149999999999999, -1.8370426535897932]
+  name: 3d3_508
+  width: 0.9
+- approach:
+  - from: cor
+    point: [7.2, -12.95, -1.5707926535897934]
+  - from: 4o3_508
+    point: [7.2, -11.149999999999999, 1.8370426535897932]
+  name: 4d3_508
+  width: 0.9
+- approach:
+  - from: cor
+    point: [8.4, 8.15, -1.48014]
+  - from: 1o3_510
+    point: [8.4, 6.35, 1.69515]
+  name: 1d3_510
+  width: 0.9
+- approach:
+  - from: cor
+    point: [-36.6, 8.15, 1.48014]
+  - from: 2o3_510
+    point: [-36.6, 6.35, -1.69515]
+  name: 2d3_510
+  width: 0.9
+- approach:
+  - from: cor
+    point: [-36.6, -12.95, 1.6614526535897933]
+  - from: 3o3_510
+    point: [-36.6, -11.149999999999999, -1.4464426535897934]
+  name: 3d3_510
+  width: 0.9
+- approach:
+  - from: cor
+    point: [8.4, -12.95, -1.6614526535897933]
+  - from: 4o3_510
+    point: [8.4, -11.149999999999999, 1.4464426535897934]
+  name: 4d3_510
+  width: 0.9
+- approach:
+  - from: cor
+    point: [14.9, 8.15, -1.67047]
+  - from: 1o3_512
+    point: [14.9, 6.35, 1.42191]
+  name: 1d3_512
+  width: 0.9
+- approach:
+  - from: cor
+    point: [-43.1, 8.15, 1.67047]
+  - from: 2o3_512
+    point: [-43.1, 6.35, -1.42191]
+  name: 2d3_512
+  width: 0.9
+- approach:
+  - from: cor
+    point: [-43.1, -12.95, 1.4711226535897934]
+  - from: 3o3_512
+    point: [-43.1, -11.149999999999999, -1.7196826535897933]
+  name: 3d3_512
+  width: 0.9
+- approach:
+  - from: cor
+    point: [14.9, -12.95, -1.4711226535897934]
+  - from: 4o3_512
+    point: [14.9, -11.149999999999999, 1.7196826535897933]
+  name: 4d3_512
+  width: 0.9
+- approach:
+  - from: 1s3_516
+    point: [20.25, 4.8, 3.14159]
+  - from: cor
+    point: [18.45, 4.8, 0]
+  name: 1d3_5161
+  width: 2.0
+- approach:
+  - from: 2s3_516
+    point: [-48.45, 4.8, -3.14159]
+  - from: cor
+    point: [-46.65, 4.8, -0.0]
+  name: 2d3_5161
+  width: 2.0
+- approach:
+  - from: 3s3_516
+    point: [-48.45, -9.6, -2.653589793355844e-06]
+  - from: cor
+    point: [-46.65, -9.6, -3.141592653589793]
+  name: 3d3_5161
+  width: 2.0
+- approach:
+  - from: 4s3_516
+    point: [20.25, -9.6, 2.653589793355844e-06]
+  - from: cor
+    point: [18.45, -9.6, 3.141592653589793]
+  name: 4d3_5161
+  width: 2.0
+- approach:
+  - from: cor
+    point: [26.35, 8.15, -1.81578]
+  - from: 1s3_516
+    point: [26.35, 6.35, 1.52915]
+  name: 1d3_5162
+  width: 0.9
+- approach:
+  - from: cor
+    point: [-54.55, 8.15, 1.81578]
+  - from: 2s3_516
+    point: [-54.55, 6.35, -1.52915]
+  name: 2d3_5162
+  width: 0.9
+- approach:
+  - from: cor
+    point: [-54.55, -12.95, 1.3258126535897934]
+  - from: 3s3_516
+    point: [-54.55, -11.149999999999999, -1.6124426535897933]
+  name: 3d3_5162
+  width: 0.9
+- approach:
+  - from: cor
+    point: [26.35, -12.95, -1.3258126535897934]
+  - from: 4s3_516
+    point: [26.35, -11.149999999999999, 1.6124426535897933]
+  name: 4d3_5162
+  width: 0.9
+- approach:
+  - from: 1l3_436
+    point: [37.8, 8.35, 3.06482]
+  - from: cor
+    point: [36.25, 8.35, 0]
+  name: 1d3_4361
+  width: 0.9
+- approach:
+  - from: 2l3_436
+    point: [-66.0, 8.35, -3.06482]
+  - from: cor
+    point: [-64.45, 8.35, -0.0]
+  name: 2d3_4361
+  width: 0.9
+- approach:
+  - from: 3l3_436
+    point: [-66.0, -13.149999999999999, -0.07677265358979313]
+  - from: cor
+    point: [-64.45, -13.149999999999999, -3.141592653589793]
+  name: 3d3_4361
+  width: 0.9
+- approach:
+  - from: 4l3_436
+    point: [37.8, -13.149999999999999, 0.07677265358979313]
+  - from: cor
+    point: [36.25, -13.149999999999999, 3.141592653589793]
+  name: 4d3_4361
+  width: 0.9
+- approach:
+  - from: 1l3_436
+    point: [35.6, 15.45, 3.14159]
+  - from: cor
+    point: [33.7, 15.45, -0.124356]
+  name: 1d3_4362
+  width: 0.9
+- approach:
+  - from: 2l3_436
+    point: [-63.8, 15.45, -3.14159]
+  - from: cor
+    point: [-61.900000000000006, 15.45, 0.124356]
+  name: 2d3_4362
+  width: 0.9
+- approach:
+  - from: 3l3_436
+    point: [-63.8, -20.25, -2.653589793355844e-06]
+  - from: cor
+    point: [-61.900000000000006, -20.25, 3.0172366535897934]
+  name: 3d3_4362
+  width: 0.9
+- approach:
+  - from: 4l3_436
+    point: [35.6, -20.25, 2.653589793355844e-06]
+  - from: cor
+    point: [33.7, -20.25, -3.0172366535897934]
+  name: 4d3_4362
+  width: 0.9
+- approach:
+  - from: cor
+    point: [28.85, 15.3, -1.5708]
+  - from: 1o3_428
+    point: [28.85, 13.7, 1.7976]
+  name: 1d3_428
+  width: 0.9
+- approach:
+  - from: cor
+    point: [-57.05, 15.3, 1.5708]
+  - from: 2o3_428
+    point: [-57.05, 13.7, -1.7976]
+  name: 2d3_428
+  width: 0.9
+- approach:
+  - from: cor
+    point: [-57.05, -20.1, 1.5707926535897934]
+  - from: 3o3_428
+    point: [-57.05, -18.5, -1.3439926535897933]
+  name: 3d3_428
+  width: 0.9
+- approach:
+  - from: cor
+    point: [28.85, -20.1, -1.5707926535897934]
+  - from: 4o3_428
+    point: [28.85, -18.5, 1.3439926535897933]
+  name: 4d3_428
+  width: 0.9
+- approach:
+  - from: 1o3_426
+    point: [26.05, 13.7, 1.67046]
+  - from: cor
+    point: [26.05, 15.3, -1.46014]
+  name: 1d3_426
+  width: 0.9
+- approach:
+  - from: 2o3_426
+    point: [-54.25, 13.7, -1.67046]
+  - from: cor
+    point: [-54.25, 15.3, 1.46014]
+  name: 2d3_426
+  width: 0.9
+- approach:
+  - from: 3o3_426
+    point: [-54.25, -18.5, -1.4711326535897933]
+  - from: cor
+    point: [-54.25, -20.1, 1.6814526535897933]
+  name: 3d3_426
+  width: 0.9
+- approach:
+  - from: 4o3_426
+    point: [26.05, -18.5, 1.4711326535897933]
+  - from: cor
+    point: [26.05, -20.1, -1.6814526535897933]
+  name: 4d3_426
+  width: 0.9
+- approach:
+  - from: cor
+    point: [24.9, 15.3, -1.5708]
+  - from: 1l3_414b
+    point: [24.9, 13.7, 1.50423]
+  name: 1d3_414b1
+  width: 0.9
+- approach:
+  - from: cor
+    point: [-53.099999999999994, 15.3, 1.5708]
+  - from: 2l3_414b
+    point: [-53.099999999999994, 13.7, -1.50423]
+  name: 2d3_414b1
+  width: 0.9
+- approach:
+  - from: cor
+    point: [-53.099999999999994, -20.1, 1.5707926535897934]
+  - from: 3l3_414b
+    point: [-53.099999999999994, -18.5, -1.6373626535897934]
+  name: 3d3_414b1
+  width: 0.9
+- approach:
+  - from: cor
+    point: [24.9, -20.1, -1.5707926535897934]
+  - from: 4l3_414b
+    point: [24.9, -18.5, 1.6373626535897934]
+  name: 4d3_414b1
+  width: 0.9
+- approach:
+  - from: cor
+    point: [24.4, 8.1, 1.5708]
+  - from: 1l3_414b
+    point: [24.4, 9.8, -1.5708]
+  name: 1d3_414b2
+  width: 1.8
+- approach:
+  - from: cor
+    point: [-52.599999999999994, 8.1, -1.5708]
+  - from: 2l3_414b
+    point: [-52.599999999999994, 9.8, 1.5708]
+  name: 2d3_414b2
+  width: 1.8
+- approach:
+  - from: cor
+    point: [-52.599999999999994, -12.899999999999999, -1.5707926535897934]
+  - from: 3l3_414b
+    point: [-52.599999999999994, -14.600000000000001, 1.5707926535897934]
+  name: 3d3_414b2
+  width: 1.8
+- approach:
+  - from: cor
+    point: [24.4, -12.899999999999999, 1.5707926535897934]
+  - from: 4l3_414b
+    point: [24.4, -14.600000000000001, -1.5707926535897934]
+  name: 4d3_414b2
+  width: 1.8
+- approach:
+  - from: 1l3_414b
+    point: [18.85, 13.9, 3.14159]
+  - from: 1l3_414
+    point: [17.25, 13.9, 0]
+  name: 1d3_414b3
+  width: 0.9
+- approach:
+  - from: 2l3_414b
+    point: [-47.05, 13.9, -3.14159]
+  - from: 2l3_414
+    point: [-45.45, 13.9, -0.0]
+  name: 2d3_414b3
+  width: 0.9
+- approach:
+  - from: 3l3_414b
+    point: [-47.05, -18.7, -2.653589793355844e-06]
+  - from: 3l3_414
+    point: [-45.45, -18.7, -3.141592653589793]
+  name: 3d3_414b3
+  width: 0.9
+- approach:
+  - from: 4l3_414b
+    point: [18.85, -18.7, 2.653589793355844e-06]
+  - from: 4l3_414
+    point: [17.25, -18.7, 3.141592653589793]
+  name: 4d3_414b3
+  width: 0.9
+- approach:
+  - from: 1l3_414
+    point: [13.45, 13.9, 3.14159]
+  - from: 1l3_414a
+    point: [11.85, 13.9, 0]
+  name: 1d3_414a3
+  width: 0.9
+- approach:
+  - from: 2l3_414
+    point: [-41.65, 13.9, -3.14159]
+  - from: 2l3_414a
+    point: [-40.05, 13.9, -0.0]
+  name: 2d3_414a3
+  width: 0.9
+- approach:
+  - from: 3l3_414
+    point: [-41.65, -18.7, -2.653589793355844e-06]
+  - from: 3l3_414a
+    point: [-40.05, -18.7, -3.141592653589793]
+  name: 3d3_414a3
+  width: 0.9
+- approach:
+  - from: 4l3_414
+    point: [13.45, -18.7, 2.653589793355844e-06]
+  - from: 4l3_414a
+    point: [11.85, -18.7, 3.141592653589793]
+  name: 4d3_414a3
+  width: 0.9
+- approach:
+  - from: 1l3_414a
+    point: [6.05, 9.8, -1.5708]
+  - from: cor
+    point: [6.05, 8.1, 1.31347]
+  name: 1d3_414a2
+  width: 0.9
+- approach:
+  - from: 2l3_414a
+    point: [-34.25, 9.8, 1.5708]
+  - from: cor
+    point: [-34.25, 8.1, -1.31347]
+  name: 2d3_414a2
+  width: 0.9
+- approach:
+  - from: 3l3_414a
+    point: [-34.25, -14.600000000000001, 1.5707926535897934]
+  - from: cor
+    point: [-34.25, -12.899999999999999, -1.8281226535897934]
+  name: 3d3_414a2
+  width: 0.9
+- approach:
+  - from: 4l3_414a
+    point: [6.05, -14.600000000000001, -1.5707926535897934]
+  - from: cor
+    point: [6.05, -12.899999999999999, 1.8281226535897934]
+  name: 4d3_414a2
+  width: 0.9
+- approach:
+  - from: cor
+    point: [6.6, 15.3, -1.47113]
+  - from: 1l3_414a
+    point: [6.6, 13.7, 1.5708]
+  name: 1d3_414a1
+  width: 1.8
+- approach:
+  - from: cor
+    point: [-34.8, 15.3, 1.47113]
+  - from: 2l3_414a
+    point: [-34.8, 13.7, -1.5708]
+  name: 2d3_414a1
+  width: 1.8
+- approach:
+  - from: cor
+    point: [-34.8, -20.1, 1.6704626535897933]
+  - from: 3l3_414a
+    point: [-34.8, -18.5, -1.5707926535897934]
+  name: 3d3_414a1
+  width: 1.8
+- approach:
+  - from: cor
+    point: [6.6, -20.1, -1.6704626535897933]
+  - from: 4l3_414a
+    point: [6.6, -18.5, 1.5707926535897934]
+  name: 4d3_414a1
+  width: 1.8
+- approach:
+  - from: cor
+    point: [4.9, 15.3, -1.64757]
+  - from: 1o3_412
+    point: [4.9, 13.7, 1.48013]
+  name: 1d3_412
+  width: 0.9
+- approach:
+  - from: cor
+    point: [-33.1, 15.3, 1.64757]
+  - from: 2o3_412
+    point: [-33.1, 13.7, -1.48013]
+  name: 2d3_412
+  width: 0.9
+- approach:
+  - from: cor
+    point: [-33.1, -20.1, 1.4940226535897934]
+  - from: 3o3_412
+    point: [-33.1, -18.5, -1.6614626535897934]
+  name: 3d3_412
+  width: 0.9
+- approach:
+  - from: cor
+    point: [4.9, -20.1, -1.4940226535897934]
+  - from: 4o3_412
+    point: [4.9, -18.5, 1.6614626535897934]
+  name: 4d3_412
+  width: 0.9
+- approach:
+  - from: cor
+    point: [-8.2, 15.2, 1.5708]
+  - from: 1o3_402
+    point: [-8.2, 17.2, -1.32582]
+  name: 1d3_402
+  width: 0.9
+- approach:
+  - from: cor
+    point: [-20.0, 15.2, -1.5708]
+  - from: 2o3_402
+    point: [-20.0, 17.2, 1.32582]
+  name: 2d3_402
+  width: 0.9
+- approach:
+  - from: cor
+    point: [-20.0, -20.0, -1.5707926535897934]
+  - from: 3o3_402
+    point: [-20.0, -22.0, 1.8157726535897933]
+  name: 3d3_402
+  width: 0.9
+- approach:
+  - from: cor
+    point: [-8.2, -20.0, 1.5707926535897934]
+  - from: 4o3_402
+    point: [-8.2, -22.0, -1.8157726535897933]
+  name: 4d3_402
+  width: 0.9
+- approach:
+  - from: 1o3_404
+    point: [-7.05, 17.2, -1.72345]
+  - from: cor
+    point: [-7.05, 15.2, 1.47113]
+  name: 1d3_404
+  width: 0.9
+- approach:
+  - from: 2o3_404
+    point: [-21.15, 17.2, 1.72345]
+  - from: cor
+    point: [-21.15, 15.2, -1.47113]
+  name: 2d3_404
+  width: 0.9
+- approach:
+  - from: 3o3_404
+    point: [-21.15, -22.0, 1.4181426535897934]
+  - from: cor
+    point: [-21.15, -20.0, -1.6704626535897933]
+  name: 3d3_404
+  width: 0.9
+- approach:
+  - from: 4o3_404
+    point: [-7.05, -22.0, -1.4181426535897934]
+  - from: cor
+    point: [-7.05, -20.0, 1.6704626535897933]
+  name: 4d3_404
+  width: 0.9
+- approach:
+  - from: 1o3_416
+    point: [7.2, 17.2, -1.47113]
+  - from: cor
+    point: [7.2, 15.2, 1.68145]
+  name: 1d3_416
+  width: 0.9
+- approach:
+  - from: 2o3_416
+    point: [-35.4, 17.2, 1.47113]
+  - from: cor
+    point: [-35.4, 15.2, -1.68145]
+  name: 2d3_416
+  width: 0.9
+- approach:
+  - from: 3o3_416
+    point: [-35.4, -22.0, 1.6704626535897933]
+  - from: cor
+    point: [-35.4, -20.0, -1.4601426535897934]
+  name: 3d3_416
+  width: 0.9
+- approach:
+  - from: 4o3_416
+    point: [7.2, -22.0, -1.6704626535897933]
+  - from: cor
+    point: [7.2, -20.0, 1.4601426535897934]
+  name: 4d3_416
+  width: 0.9
+- approach:
+  - from: 1o3_418
+    point: [8.35, 17.2, -1.97569]
+  - from: cor
+    point: [8.35, 15.2, 1.5708]
+  name: 1d3_418
+  width: 0.9
+- approach:
+  - from: 2o3_418
+    point: [-36.55, 17.2, 1.97569]
+  - from: cor
+    point: [-36.55, 15.2, -1.5708]
+  name: 2d3_418
+  width: 0.9
+- approach:
+  - from: 3o3_418
+    point: [-36.55, -22.0, 1.1659026535897934]
+  - from: cor
+    point: [-36.55, -20.0, -1.5707926535897934]
+  name: 3d3_418
+  width: 0.9
+- approach:
+  - from: 4o3_418
+    point: [8.35, -22.0, -1.1659026535897934]
+  - from: cor
+    point: [8.35, -20.0, 1.5707926535897934]
+  name: 4d3_418
+  width: 0.9
+- approach:
+  - from: 1o3_420
+    point: [14.9, 17.2, -1.50423]
+  - from: cor
+    point: [14.9, 15.2, 1.5708]
+  name: 1d3_420
+  width: 0.9
+- approach:
+  - from: 2o3_420
+    point: [-43.1, 17.2, 1.50423]
+  - from: cor
+    point: [-43.1, 15.2, -1.5708]
+  name: 2d3_420
+  width: 0.9
+- approach:
+  - from: 3o3_420
+    point: [-43.1, -22.0, 1.6373626535897934]
+  - from: cor
+    point: [-43.1, -20.0, -1.5707926535897934]
+  name: 3d3_420
+  width: 0.9
+- approach:
+  - from: 4o3_420
+    point: [14.9, -22.0, -1.6373626535897934]
+  - from: cor
+    point: [14.9, -20.0, 1.5707926535897934]
+  name: 4d3_420
+  width: 0.9
+- approach:
+  - from: 1o3_422
+    point: [16.05, 17.2, -1.97569]
+  - from: cor
+    point: [16.05, 15.2, 1.48014]
+  name: 1d3_422
+  width: 0.9
+- approach:
+  - from: 2o3_422
+    point: [-44.25, 17.2, 1.97569]
+  - from: cor
+    point: [-44.25, 15.2, -1.48014]
+  name: 2d3_422
+  width: 0.9
+- approach:
+  - from: 3o3_422
+    point: [-44.25, -22.0, 1.1659026535897934]
+  - from: cor
+    point: [-44.25, -20.0, -1.6614526535897933]
+  name: 3d3_422
+  width: 0.9
+- approach:
+  - from: 4o3_422
+    point: [16.05, -22.0, -1.1659026535897934]
+  - from: cor
+    point: [16.05, -20.0, 1.6614526535897933]
+  name: 4d3_422
+  width: 0.9
+- approach:
+  - from: 1o3_430
+    point: [30.2, 17.2, -1.49403]
+  - from: cor
+    point: [30.2, 15.2, 1.48765]
+  name: 1d3_430
+  width: 0.9
+- approach:
+  - from: 2o3_430
+    point: [-58.4, 17.2, 1.49403]
+  - from: cor
+    point: [-58.4, 15.2, -1.48765]
+  name: 2d3_430
+  width: 0.9
+- approach:
+  - from: 3o3_430
+    point: [-58.4, -22.0, 1.6475626535897934]
+  - from: cor
+    point: [-58.4, -20.0, -1.6539426535897934]
+  name: 3d3_430
+  width: 0.9
+- approach:
+  - from: 4o3_430
+    point: [30.2, -22.0, -1.6475626535897934]
+  - from: cor
+    point: [30.2, -20.0, 1.6539426535897934]
+  name: 4d3_430
+  width: 0.9
+- approach:
+  - from: 1o3_432
+    point: [31.4, 17.2, -1.98902]
+  - from: cor
+    point: [31.4, 15.2, 1.5708]
+  name: 1d3_432
+  width: 0.9
+- approach:
+  - from: 2o3_432
+    point: [-59.599999999999994, 17.2, 1.98902]
+  - from: cor
+    point: [-59.599999999999994, 15.2, -1.5708]
+  name: 2d3_432
+  width: 0.9
+- approach:
+  - from: 3o3_432
+    point: [-59.599999999999994, -22.0, 1.1525726535897933]
+  - from: cor
+    point: [-59.599999999999994, -20.0, -1.5707926535897934]
+  name: 3d3_432
+  width: 0.9
+- approach:
+  - from: 4o3_432
+    point: [31.4, -22.0, -1.1525726535897933]
+  - from: cor
+    point: [31.4, -20.0, 1.5707926535897934]
+  name: 4d3_432
+  width: 0.9
