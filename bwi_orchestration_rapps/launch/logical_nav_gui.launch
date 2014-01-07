@@ -1,0 +1,34 @@
+<!--
+  Right now, the android app is hard coded to look for /cmd_vel as the input
+  topic.
+ -->
+<launch>
+
+  <arg name="map_frame" default="map" />
+  <arg name="map_service" default="/static_map" />
+  <arg name="map_topic" default="/map" />
+  <arg name="application_namespace" default="" />
+
+  <arg name="dir_path" default="$(find bwi_orchestration_maps)/config" />
+  <arg name="map_file" 
+    default="$(find bwi_orchestration_maps)/maps/3nex4.yaml" />
+  <arg name="location_file" default="$(arg dir_path)/locations.yaml" />
+  <arg name="door_file" default="$(arg dir_path)/doors.yaml" />
+
+  <!-- localization + navigation -->
+  <include file="$(find bwi_orchestration_rapps)/launch/nav.launch">
+    <arg name="map_frame" value="$(arg map_frame)" />
+    <arg name="map_service" value="$(arg map_service)" />
+    <arg name="map_topic" value="$(arg map_topic)" />
+    <arg name="application_namespace" value="$(arg application_namespace)" />
+  </include>
+
+  <!-- logical translator -->
+  <node name="segbot_logical_navigator" pkg="segbot_logical_translator"
+        type="segbot_logical_navigator">
+    <param name="map_file" value="$(arg map_file)" />
+    <param name="door_file" value="$(arg door_file)" />
+    <param name="location_file" value="$(arg location_file)" />
+  </node>
+
+</launch>

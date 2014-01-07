@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>bwi_multimaster_tests</name>
+  <name>bwi_orchestration</name>
   <version>0.0.0</version>
-  <description>The bwi_multimaster_tests package</description>
+  <description>The bwi_orchestration package</description>
 
   <maintainer email="piyushk@gmail.com">Piyush Khandelwal</maintainer>
 

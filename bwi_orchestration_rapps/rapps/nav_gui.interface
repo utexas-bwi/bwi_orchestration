@@ -1,0 +1,17 @@
+publishers:
+  - scan_filtered
+  - odom
+  - /tf
+  - tf_changes
+  - /tf_changes
+  - /map
+  - amcl_pose
+subscribers: 
+  - initialpose
+  - move_base_simple/goal
+services:
+  - /static_map
+  - question_dialog
+action_clients: []
+action_servers: 
+  - move_base

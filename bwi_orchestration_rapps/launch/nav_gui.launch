@@ -1,0 +1,23 @@
+<!--
+  Right now, the android app is hard coded to look for /cmd_vel as the input
+  topic.
+ -->
+<launch>
+
+  <arg name="map_frame" default="map" />
+  <arg name="map_service" default="/static_map" />
+  <arg name="map_topic" default="/map" />
+  <arg name="application_namespace" default="" />
+
+  <!-- localization + navigation -->
+  <include file="$(find bwi_orchestration_rapps)/launch/nav.launch">
+    <arg name="map_frame" value="$(arg map_frame)" />
+    <arg name="map_service" value="$(arg map_service)" />
+    <arg name="map_topic" value="$(arg map_topic)" />
+    <arg name="application_namespace" value="$(arg application_namespace)" />
+  </include>
+
+  <!-- gui element -->
+  <node name="gui" pkg="segbot_gui" type="question_dialog_plugin" />
+
+</launch>

@@ -1,7 +1,7 @@
 <launch>
 
-  <include file="$(find utexas_gdc)/launch/3ne.launch" />
-  <include file="$(find utexas_gdc)/launch/3ne_map.launch" />
+  <include file="$(find bwi_orchestration_maps)/launch/3nex4.launch" />
+  <include file="$(find bwi_orchestration_maps)/launch/3nex4_map_server.launch" />
 
   <group ns="robot1">
     <include file="$(find segbot_gazebo)/launch/segbot_mobile_base.launch">

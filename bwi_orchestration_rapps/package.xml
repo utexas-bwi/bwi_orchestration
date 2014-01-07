@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>bwi_orchestration_rapps</name>
+  <version>0.0.0</version>
+  <description>The bwi_orchestration_rapps package</description>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/bwi_orchestration_rapps</url>
+  <url type="repository">https://github.com/utexas-bwi/segbot_apps.git</url>
+  <url type="bugtracker">https://github.com/utexas-bwi/segbot_apps/issues</url>
+
+  <author email="piyushk@gmail.com">Piyush Khandelwal</author>
+  <maintainer email="piyushk@gmail.com">Piyush Khandelwal</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>

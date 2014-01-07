@@ -1,0 +1,8 @@
+<concert>
+  <launch package="bwi_orchestration" name="orchestrator.launch" port="11311"/>
+  <launch package="bwi_orchestration" name="simulated_segbot1.launch" port="11312"/>
+  <launch package="bwi_orchestration" name="simulated_segbot2.launch" port="11313"/>
+  <launch package="bwi_orchestration" name="simulated_segbot3.launch" port="11314"/>
+  <launch package="bwi_orchestration" name="simulated_segbot4.launch" port="11315"/>
+  <launch package="bwi_orchestration" name="gazebo.launch" port="11316"/>
+</concert>

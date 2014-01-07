@@ -11,7 +11,7 @@
   <node pkg="rocon_gateway" type="gateway.py" name="gateway">
     <rosparam command="load" file="$(find rocon_gateway)/param/default.yaml" />
     <rosparam command="load" file="$(find rocon_gateway)/param/default_blacklist.yaml" />
-    <rosparam command="load" file="$(find bwi_multimaster_tests)/params/gazebo.yaml" />
+    <rosparam command="load" file="$(find bwi_orchestration)/params/gazebo.yaml" />
     <param name="hub_uri" value="$(arg hub_uri)" />
     <param name="name" value="$(arg gateway_name)"/> <!-- <rosparam param="name" subst_value="true">$(arg robot_name)</rosparam> -->
     <rosparam param="firewall">true</rosparam> <!-- Nothing comes in! -->
@@ -20,6 +20,6 @@
     <param name="disable_uuids" value="True"/>
   </node>
 
-  <include file="$(find bwi_multimaster_tests)/launch/environment.launch" />
+  <include file="$(find bwi_orchestration)/launch/environment.launch" />
   
 </launch>

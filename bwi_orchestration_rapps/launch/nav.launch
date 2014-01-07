@@ -1,0 +1,32 @@
+<!--
+  Right now, the android app is hard coded to look for /cmd_vel as the input
+  topic.
+ -->
+<launch>
+
+  <arg name="map_frame" default="map" />
+  <arg name="map_service" default="/static_map" />
+  <arg name="map_topic" default="/map" />
+  <arg name="application_namespace" default="" />
+
+  <arg name="tf_prefix" default="$(arg application_namespace)" />
+
+  <param name="tf_prefix" value="$(arg tf_prefix)" />
+  <arg name="base_frame_id" default="$(arg tf_prefix)/base_footprint" />
+  <arg name="odom_frame_id" default="$(arg tf_prefix)/odom" />
+
+  <!-- localization -->
+  <node name="fake_localization" pkg="fake_localization" type="fake_localization">
+    <remap from="base_pose_ground_truth" to="odom"/>
+    <param name="global_frame_id" value="$(arg map_frame)" />
+    <param name="base_frame_id" value="$(arg base_frame_id)" />
+    <param name="odom_frame_id" value="$(arg odom_frame_id)" />
+  </node>
+
+  <!-- navigation -->
+  <include file="$(find segbot_navigation)/launch/move_base_eband.launch">
+    <arg name="map_topic" value="$(arg map_topic)" />
+    <arg name="debug" value="false" />
+  </include>
+
+</launch>
