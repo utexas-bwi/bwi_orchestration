@@ -1,0 +1,10 @@
+<launch>
+
+  <arg name="dir_path" default="$(find bwi_orchestration_maps)/config" />
+  <arg name="door_file" default="$(arg dir_path)/doors.yaml" />
+
+  <include file="$(find segbot_simulation_apps)/launch/door_handler.launch">
+    <arg name="door_file" value="$(arg door_file)" />
+  </include>
+
+</launch>

@@ -1,0 +1,6 @@
+publishers: []
+subscribers: []
+services:
+  - update_doors
+action_clients: []
+action_servers: []

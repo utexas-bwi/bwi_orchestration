@@ -1,0 +1,34 @@
+<launch>
+
+  <arg name="hub_uri" default="http://localhost:6380" />
+  <!-- Polling period for multimaster advertising/flipping -->
+  <arg name="gateway_watch_loop_period" default="5"/>
+  <arg name="hub_whitelist" default=""/> <!-- semi-colon separated hub names/regex patterns -->
+
+  <param name="/use_sim_time" value="true" />
+
+  <arg name="robot_name" default="door_handler"/>
+  <arg name="robot_type" default="bwi_machine"/>
+  <arg name="robot_icon" default="rocon_app_manager/cybernetic_pirate.png"/>
+  <arg name="rapp_lists" default="bwi_orchestration/simulated_door_handler.rapps;rocon_apps/rocon.rapps"/> <!-- semi colon separated list of rapp list resource names --> 
+
+  <include file="$(find rocon_app_manager)/launch/includes/_app_manager.xml">
+    <arg name="robot_name" value="$(arg robot_name)" />
+    <arg name="robot_type" value="$(arg robot_type)" />
+    <arg name="robot_icon" value="$(arg robot_icon)" />
+    <arg name="rapp_lists" value="$(arg rapp_lists)" />
+  </include>
+
+  <node pkg="rocon_gateway" type="gateway.py" name="gateway">
+    <rosparam command="load" file="$(find rocon_gateway)/param/default.yaml" />
+    <rosparam command="load" file="$(find rocon_gateway)/param/default_blacklist.yaml" />
+    <rosparam command="load" file="$(find rocon_app_manager)/param/app_manager_advertisements.yaml" />
+    <param name="hub_uri" value="$(arg hub_uri)" />
+    <param name="name" value="$(arg robot_name)"/>
+    <rosparam param="firewall">false</rosparam> <!-- Need to get flipped topics from gazebo gateway -->
+    <param name="watch_loop_period" value="$(arg gateway_watch_loop_period)"/>
+    <param name="hub_whitelist" value="$(arg hub_whitelist)"/>
+    <param name="disable_uuids" value="true" />
+  </node>
+  
+</launch>

@@ -5,4 +5,5 @@
   <launch package="bwi_orchestration" name="simulated_segbot3.launch" port="11314"/>
   <launch package="bwi_orchestration" name="simulated_segbot4.launch" port="11315"/>
   <launch package="bwi_orchestration" name="gazebo.launch" port="11316"/>
+  <launch package="bwi_orchestration" name="simulated_door_handler.launch" port="11317"/>
 </concert>

@@ -1,0 +1,2 @@
+apps:
+ - name: bwi_orchestration_rapps/door_handler

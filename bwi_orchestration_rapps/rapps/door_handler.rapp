@@ -1,0 +1,6 @@
+display:      Simulated Door Control
+description:  Control all the doors in the simulated 3nex4 environment
+platform:     linux.*.ros.bwi_machine
+launch:       bwi_orchestration_rapps/door_handler.launch
+interface:    bwi_orchestration_rapps/door_handler.interface
+icon:         bwi_orchestration_rapps/placeholder_icon.png
