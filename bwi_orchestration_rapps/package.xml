@@ -15,4 +15,11 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
+  <export>
+    <rocon_app>rapps/nav.rapp</rocon_app>
+    <rocon_app>rapps/logical_nav.rapp</rocon_app>
+    <rocon_app>rapps/nav_gui.rapp</rocon_app>
+    <rocon_app>rapps/logical_nav_gui.rapp</rocon_app>
+  </export>
+
 </package>

@@ -1,6 +1,6 @@
-display:      Segbot Navigation
-description:  Drive a segbot around a pre-made map.
-platform:     linux.*.ros.segbot
-launch:       bwi_orchestration_rapps/nav.launch
-interface:    bwi_orchestration_rapps/nav.interface
-icon:         bwi_orchestration_rapps/placeholder_icon.png
+display:       Segbot Navigation
+description:   Drive a segbot around a pre-made map.
+compatibility: rocon:/
+launch:               nav.launch
+public_interface:     nav.interface
+icon:         placeholder_icon.png
